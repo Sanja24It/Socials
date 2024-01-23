@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.main {
+  font-family: "Inter", sans-serif;
+  width: 18.75rem;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.avatar {
+  text-align: center;
+}
+
+.main_head {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.8rem;
+}
+.second_head {
+  color: hsl(75, 94%, 57%);
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+}
+.main_pag {
+  color: hsl(0, 0%, 100%, 0.8);
+}
+
+.img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.socials {
+  text-align: center;
+}
+
+.boxes {
+  background-color: hsl(0, 0%, 20%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+.boxes:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: url(./assets/images/icons8-cursor-26.png), pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 375px) and(max-width: 678px) {
+  .main {
+    width: 80%;
+  }
+}
