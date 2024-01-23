@@ -51,10 +51,6 @@ body {
   color: hsl(0, 0%, 100%);
   font-weight: 600;
 }
-.boxes:focus, .boxes:active{
-   background-color: hsl(75, 94%, 57%);
-  color: hsl(0, 0%, 8%);
-}
 
 .boxes:hover {
   background-color: hsl(75, 94%, 57%);
